@@ -68,14 +68,14 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cAf-XF-HBm">
-                                <rect key="frame" x="40" y="293" width="334" height="2"/>
+                                <rect key="frame" x="40" y="293" width="334" height="2.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="2" id="5Bv-zi-qhB"/>
+                                    <constraint firstAttribute="height" constant="2.5" id="5Bv-zi-qhB"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z60-Pb-ufq">
-                                <rect key="frame" x="40" y="315" width="334" height="36"/>
+                                <rect key="frame" x="40" y="315.5" width="334" height="36"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="l42-79-c3f">
                                         <rect key="frame" x="0.0" y="0.0" width="36" height="36"/>
@@ -102,21 +102,21 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VCG-Ds-EiK">
-                                <rect key="frame" x="40" y="354" width="334" height="2"/>
+                                <rect key="frame" x="40" y="354.5" width="334" height="2.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="2" id="Two-Wd-art"/>
+                                    <constraint firstAttribute="height" constant="2.5" id="Two-Wd-art"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="He9-RY-lhe">
-                                <rect key="frame" x="283" y="362" width="111" height="29"/>
+                                <rect key="frame" x="288" y="363" width="106" height="28"/>
                                 <fontDescription key="fontDescription" name="Quicksand-Medium" family="Quicksand Medium" pointSize="13"/>
                                 <state key="normal" title="Forgot password?">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K3V-UA-JO7">
-                                <rect key="frame" x="132" y="396" width="150" height="38"/>
+                                <rect key="frame" x="132" y="397" width="150" height="38"/>
                                 <color key="backgroundColor" red="0.37254901959999998" green="0.68627450980000004" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="HfA-Jv-aTH"/>
@@ -128,7 +128,7 @@
                                 </state>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="SSl-47-opf">
-                                <rect key="frame" x="89" y="444" width="236" height="20"/>
+                                <rect key="frame" x="94.5" y="445" width="225.5" height="20"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't have an account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aD2-gt-E00">
                                         <rect key="frame" x="0.0" y="0.0" width="145" height="20"/>
@@ -149,7 +149,7 @@
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or Login with" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uI7-LF-fsL">
-                                <rect key="frame" x="167" y="474" width="80" height="20"/>
+                                <rect key="frame" x="169.5" y="475" width="75.5" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="JYM-Fv-USh"/>
                                 </constraints>
@@ -158,7 +158,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="wip-3e-Ted">
-                                <rect key="frame" x="20" y="510" width="374" height="38"/>
+                                <rect key="frame" x="20" y="511" width="374" height="38"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Upg-Ad-K7J">
                                         <rect key="frame" x="0.0" y="0.0" width="177" height="38"/>
@@ -204,7 +204,7 @@
                                 </constraints>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HWf-AX-mDf">
-                                <rect key="frame" x="20" y="558" width="374" height="38"/>
+                                <rect key="frame" x="20" y="559" width="374" height="38"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cdy-Gs-u3J">
                                         <rect key="frame" x="5" y="5" width="364" height="28"/>
@@ -272,6 +272,16 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="btnSignIn" destination="K3V-UA-JO7" id="xRf-Vz-y2m"/>
+                        <outlet property="txtEmail" destination="flV-w2-3ok" id="U3a-jO-8rD"/>
+                        <outlet property="txtPassword" destination="gAy-AF-L0j" id="ZJL-hT-lZ7"/>
+                        <outlet property="viewBtnApple" destination="HWf-AX-mDf" id="cSr-8h-DJe"/>
+                        <outlet property="viewBtnFacebook" destination="Upg-Ad-K7J" id="1Qr-Ej-TKl"/>
+                        <outlet property="viewBtnGoogle" destination="MEL-xR-Ejs" id="Rtv-Xb-BeY"/>
+                        <outlet property="viewLineEmail" destination="cAf-XF-HBm" id="eFq-Gl-gmK"/>
+                        <outlet property="viewLinePassword" destination="VCG-Ds-EiK" id="HXP-B6-Cqm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
