@@ -135,7 +135,7 @@ DEPENDENCIES:
   - XCDYouTubeKit
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - ActionSheetPicker-3.0
     - Firebase
     - FirebaseAnalytics
@@ -197,4 +197,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: c681ee0b5229c57e7c80d67c3be503a564838f6f
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.9.1

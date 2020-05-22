@@ -22,6 +22,7 @@ class ViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        setUpView()
     }
     
     func setUpView() {
@@ -35,6 +36,7 @@ class ViewController: BaseViewController {
         addBorder(views: [viewBtnApple, viewBtnGoogle, viewBtnFacebook], width: BORDER_WIDTH, color: BORDER_COLOR.cgColor)
     }
 
+}
 
 extension ViewController : UITextFieldDelegate {
     
@@ -75,4 +77,3 @@ extension ViewController : UITextFieldDelegate {
         
     }
 }
-
