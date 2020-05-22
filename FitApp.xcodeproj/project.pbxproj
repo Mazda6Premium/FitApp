@@ -24,6 +24,7 @@
 		A8FB444B24781264000C8722 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8FB444724781264000C8722 /* Quicksand-Medium.ttf */; };
 		A8FB444E24781CCB000C8722 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FB444C24781CCB000C8722 /* SignUpVC.swift */; };
 		A8FB444F24781CCB000C8722 /* SignUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8FB444D24781CCB000C8722 /* SignUpVC.xib */; };
+		A8FB44512478282B000C8722 /* Tabbar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8FB44502478282B000C8722 /* Tabbar.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		A8FB444724781264000C8722 /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Medium.ttf"; sourceTree = "<group>"; };
 		A8FB444C24781CCB000C8722 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		A8FB444D24781CCB000C8722 /* SignUpVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpVC.xib; sourceTree = "<group>"; };
+		A8FB44502478282B000C8722 /* Tabbar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tabbar.storyboard; sourceTree = "<group>"; };
 		CF123CCFF344FBCC7DF16B33 /* Pods_FitApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B126C918006E32B6CB1973 /* Pods-FitApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitApp.debug.xcconfig"; path = "Target Support Files/Pods-FitApp/Pods-FitApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				A8FB442824780620000C8722 /* Main.storyboard */,
+				A8FB44502478282B000C8722 /* Tabbar.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8FB44512478282B000C8722 /* Tabbar.storyboard in Resources */,
 				A8FB444224780997000C8722 /* GoogleService-Info.plist in Resources */,
 				A8FB444B24781264000C8722 /* Quicksand-Medium.ttf in Resources */,
 				A8FB442F24780621000C8722 /* LaunchScreen.storyboard in Resources */,
