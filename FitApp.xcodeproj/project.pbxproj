@@ -18,6 +18,13 @@
 		A8FB443E247807E7000C8722 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FB443D247807E7000C8722 /* Extensions.swift */; };
 		A8FB4440247807F5000C8722 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FB443F247807F5000C8722 /* Constant.swift */; };
 		A8FB444224780997000C8722 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8FB444124780997000C8722 /* GoogleService-Info.plist */; };
+		A8FB444824781264000C8722 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8FB444424781264000C8722 /* Quicksand-Bold.ttf */; };
+		A8FB444924781264000C8722 /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8FB444524781264000C8722 /* Quicksand-Light.ttf */; };
+		A8FB444A24781264000C8722 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8FB444624781264000C8722 /* Quicksand-Regular.ttf */; };
+		A8FB444B24781264000C8722 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8FB444724781264000C8722 /* Quicksand-Medium.ttf */; };
+		A8FB444E24781CCB000C8722 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FB444C24781CCB000C8722 /* SignUpVC.swift */; };
+		A8FB444F24781CCB000C8722 /* SignUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8FB444D24781CCB000C8722 /* SignUpVC.xib */; };
+		A8FB44512478282B000C8722 /* Tabbar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8FB44502478282B000C8722 /* Tabbar.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +41,13 @@
 		A8FB443D247807E7000C8722 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		A8FB443F247807F5000C8722 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		A8FB444124780997000C8722 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A8FB444424781264000C8722 /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		A8FB444524781264000C8722 /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.ttf"; sourceTree = "<group>"; };
+		A8FB444624781264000C8722 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		A8FB444724781264000C8722 /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Medium.ttf"; sourceTree = "<group>"; };
+		A8FB444C24781CCB000C8722 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		A8FB444D24781CCB000C8722 /* SignUpVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpVC.xib; sourceTree = "<group>"; };
+		A8FB44502478282B000C8722 /* Tabbar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tabbar.storyboard; sourceTree = "<group>"; };
 		CF123CCFF344FBCC7DF16B33 /* Pods_FitApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B126C918006E32B6CB1973 /* Pods-FitApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitApp.debug.xcconfig"; path = "Target Support Files/Pods-FitApp/Pods-FitApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +93,7 @@
 		A8FB442124780620000C8722 /* FitApp */ = {
 			isa = PBXGroup;
 			children = (
+				A8FB4443247811C4000C8722 /* Fonts */,
 				A8FB443A2478079A000C8722 /* BaseClass */,
 				A8FB44382478073F000C8722 /* View */,
 				A8FB443724780738000C8722 /* Controller */,
@@ -112,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				A8FB442824780620000C8722 /* Main.storyboard */,
+				A8FB44502478282B000C8722 /* Tabbar.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -120,6 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				A8FB442624780620000C8722 /* ViewController.swift */,
+				A8FB444C24781CCB000C8722 /* SignUpVC.swift */,
+				A8FB444D24781CCB000C8722 /* SignUpVC.xib */,
 			);
 			path = RegisterLoginFlow;
 			sourceTree = "<group>";
@@ -134,13 +152,23 @@
 			path = BaseClass;
 			sourceTree = "<group>";
 		};
+		A8FB4443247811C4000C8722 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A8FB444424781264000C8722 /* Quicksand-Bold.ttf */,
+				A8FB444524781264000C8722 /* Quicksand-Light.ttf */,
+				A8FB444724781264000C8722 /* Quicksand-Medium.ttf */,
+				A8FB444624781264000C8722 /* Quicksand-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		CD31545A3194566BA584DE27 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				D6B126C918006E32B6CB1973 /* Pods-FitApp.debug.xcconfig */,
 				2DFDF9378A58B709B908C78E /* Pods-FitApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -204,10 +232,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8FB44512478282B000C8722 /* Tabbar.storyboard in Resources */,
 				A8FB444224780997000C8722 /* GoogleService-Info.plist in Resources */,
+				A8FB444B24781264000C8722 /* Quicksand-Medium.ttf in Resources */,
 				A8FB442F24780621000C8722 /* LaunchScreen.storyboard in Resources */,
+				A8FB444A24781264000C8722 /* Quicksand-Regular.ttf in Resources */,
 				A8FB442C24780621000C8722 /* Assets.xcassets in Resources */,
+				A8FB444924781264000C8722 /* Quicksand-Light.ttf in Resources */,
+				A8FB444F24781CCB000C8722 /* SignUpVC.xib in Resources */,
 				A8FB442A24780620000C8722 /* Main.storyboard in Resources */,
+				A8FB444824781264000C8722 /* Quicksand-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8FB444E24781CCB000C8722 /* SignUpVC.swift in Sources */,
 				A8FB443E247807E7000C8722 /* Extensions.swift in Sources */,
 				A8FB442724780620000C8722 /* ViewController.swift in Sources */,
 				A8FB443C247807CC000C8722 /* BaseViewController.swift in Sources */,
