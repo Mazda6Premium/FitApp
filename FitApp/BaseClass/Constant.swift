@@ -7,3 +7,6 @@
 //
 
 import Foundation
+import UIKit
+
+let MAIN_COLOR = #colorLiteral(red: 0.3725490196, green: 0.6862745098, blue: 0.3137254902, alpha: 1)
