@@ -7,24 +7,65 @@
 //
 
 import UIKit
+import Foundation
+import Toast_Swift
 
 class BaseViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    
+    // Screen width.
+    public var screenWidth: CGFloat {
+        return UIScreen.main.bounds.width
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    public var screenHeight: CGFloat {
+        return UIScreen.main.bounds.height
     }
-    */
-
+    
+    func roundCorner(views: [UIView], radius: CGFloat) {
+        views.forEach { (view) in
+            view.layer.masksToBounds = true
+            view.layer.cornerRadius = radius
+        }
+    }
+    
+    func addBorder(views: [UIView], width: CGFloat, color: CGColor) {
+        views.forEach { (view) in
+            view.layer.borderWidth = width
+            view.layer.borderColor = color
+        }
+    }
+    
+    func showToast(message: String, duration: Double = 3) {
+        var style = ToastStyle()
+        style.backgroundColor = #colorLiteral(red: 0, green: 0.4980392157, blue: 0.6470588235, alpha: 1)
+        style.messageColor = .white
+        style.messageFont = UIFont.boldSystemFont(ofSize: 16)
+        self.view.makeToast(message, duration: duration, position: .bottom, style: style)
+    }
+    
+    func addShadow(views: [UIView]) {
+        views.forEach { (view) in
+            view.layer.cornerRadius = 10
+            view.layer.masksToBounds = true
+            view.layer.shadowOpacity = 0.5
+            view.layer.shadowOffset = CGSize(width: 2, height: 2)
+            view.layer.shadowColor = UIColor.darkGray.cgColor
+            view.clipsToBounds = false
+            view.backgroundColor = .white
+        }
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+        let touch: UITouch? = touches.first
+        if touch?.view?.tag == 10 {
+            dismiss(animated: true, completion: nil)
+        }
+    }
+    
+    func getYoutubeId(youtubeUrl: String) -> String? {
+        return URLComponents(string: youtubeUrl)?.queryItems?.first(where: { $0.name == "v" })?.value
+    }
 }
+
+
