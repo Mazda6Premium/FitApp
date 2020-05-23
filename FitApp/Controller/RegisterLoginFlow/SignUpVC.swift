@@ -28,12 +28,8 @@ class SignUpVC: BaseViewController {
     @IBOutlet weak var heightViewLinePassword: NSLayoutConstraint!
     @IBOutlet weak var heightViewLineConfirmPassword: NSLayoutConstraint!
     
-    
     @IBOutlet weak var btnSignIn: UIButton!
-    @IBOutlet weak var viewBtnFacebook: UIView!
-    @IBOutlet weak var viewBtnGoogle: UIView!
-    @IBOutlet weak var viewBtnApple: UIView!
-    
+
     let HEIGHT_CONSTANT: CGFloat = 1.5
     
     override func viewDidLoad() {
@@ -56,9 +52,7 @@ class SignUpVC: BaseViewController {
         viewLinePassword.backgroundColor = UNSELECTED_FIELD
         viewLineConfirmPassword.backgroundColor = UNSELECTED_FIELD
         
-        roundCorner(views: [btnSignIn, viewBtnFacebook, viewBtnGoogle, viewBtnApple], radius: ROUND_BORDER_BUTTON)
-        addBorder(views: [viewBtnFacebook, viewBtnGoogle, viewBtnApple], width: BORDER_WIDTH, color: BORDER_COLOR.cgColor)
-        
+        roundCorner(views: [btnSignIn], radius: ROUND_BORDER_BUTTON)
     }
     
 }

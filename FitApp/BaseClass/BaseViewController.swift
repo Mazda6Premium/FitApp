@@ -66,6 +66,8 @@ class BaseViewController: UIViewController {
     func getYoutubeId(youtubeUrl: String) -> String? {
         return URLComponents(string: youtubeUrl)?.queryItems?.first(where: { $0.name == "v" })?.value
     }
+    
+    
 }
 
 
