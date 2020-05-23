@@ -3,10 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		014CF302247932AC004D426C /* UserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014CF301247932AC004D426C /* UserVC.swift */; };
+		014CF305247932F1004D426C /* UserDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014CF303247932F1004D426C /* UserDetailVC.swift */; };
+		014CF306247932F1004D426C /* UserDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014CF304247932F1004D426C /* UserDetailVC.xib */; };
+		014CF30F24795FA6004D426C /* PopUpBirthdayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014CF30D24795FA6004D426C /* PopUpBirthdayVC.swift */; };
+		014CF31024795FA6004D426C /* PopUpBirthdayVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014CF30E24795FA6004D426C /* PopUpBirthdayVC.xib */; };
+		014CF3192479689A004D426C /* PopUpCountryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014CF3172479689A004D426C /* PopUpCountryVC.swift */; };
+		014CF31A2479689A004D426C /* PopUpCountryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014CF3182479689A004D426C /* PopUpCountryVC.xib */; };
+		014CF31D247974F2004D426C /* PopUpGenderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014CF31B247974F1004D426C /* PopUpGenderVC.swift */; };
+		014CF31E247974F2004D426C /* PopUpGenderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014CF31C247974F1004D426C /* PopUpGenderVC.xib */; };
+		014CF32224798106004D426C /* PopUpVerifyEmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014CF32024798106004D426C /* PopUpVerifyEmailVC.swift */; };
+		014CF32324798106004D426C /* PopUpVerifyEmailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014CF32124798106004D426C /* PopUpVerifyEmailVC.xib */; };
+		014CF32824798603004D426C /* PopUpVerifyPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014CF32624798603004D426C /* PopUpVerifyPhoneNumber.swift */; };
+		014CF32924798603004D426C /* PopUpVerifyPhoneNumber.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014CF32724798603004D426C /* PopUpVerifyPhoneNumber.xib */; };
 		2EF212E83B7DF9A8AA120186 /* Pods_FitApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF123CCFF344FBCC7DF16B33 /* Pods_FitApp.framework */; };
 		A8FB442324780620000C8722 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FB442224780620000C8722 /* AppDelegate.swift */; };
 		A8FB442524780620000C8722 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FB442424780620000C8722 /* SceneDelegate.swift */; };
@@ -28,6 +41,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		014CF301247932AC004D426C /* UserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVC.swift; sourceTree = "<group>"; };
+		014CF303247932F1004D426C /* UserDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailVC.swift; sourceTree = "<group>"; };
+		014CF304247932F1004D426C /* UserDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDetailVC.xib; sourceTree = "<group>"; };
+		014CF30D24795FA6004D426C /* PopUpBirthdayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpBirthdayVC.swift; sourceTree = "<group>"; };
+		014CF30E24795FA6004D426C /* PopUpBirthdayVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopUpBirthdayVC.xib; sourceTree = "<group>"; };
+		014CF3172479689A004D426C /* PopUpCountryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpCountryVC.swift; sourceTree = "<group>"; };
+		014CF3182479689A004D426C /* PopUpCountryVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopUpCountryVC.xib; sourceTree = "<group>"; };
+		014CF31B247974F1004D426C /* PopUpGenderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpGenderVC.swift; sourceTree = "<group>"; };
+		014CF31C247974F1004D426C /* PopUpGenderVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopUpGenderVC.xib; sourceTree = "<group>"; };
+		014CF32024798106004D426C /* PopUpVerifyEmailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpVerifyEmailVC.swift; sourceTree = "<group>"; };
+		014CF32124798106004D426C /* PopUpVerifyEmailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopUpVerifyEmailVC.xib; sourceTree = "<group>"; };
+		014CF32624798603004D426C /* PopUpVerifyPhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpVerifyPhoneNumber.swift; sourceTree = "<group>"; };
+		014CF32724798603004D426C /* PopUpVerifyPhoneNumber.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopUpVerifyPhoneNumber.xib; sourceTree = "<group>"; };
 		2DFDF9378A58B709B908C78E /* Pods-FitApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitApp.release.xcconfig"; path = "Target Support Files/Pods-FitApp/Pods-FitApp.release.xcconfig"; sourceTree = "<group>"; };
 		A8FB441F24780620000C8722 /* FitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8FB442224780620000C8722 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +90,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		014CF30024793275004D426C /* TabUser */ = {
+			isa = PBXGroup;
+			children = (
+				014CF30724795753004D426C /* PopUp */,
+				014CF301247932AC004D426C /* UserVC.swift */,
+				014CF303247932F1004D426C /* UserDetailVC.swift */,
+				014CF304247932F1004D426C /* UserDetailVC.xib */,
+			);
+			path = TabUser;
+			sourceTree = "<group>";
+		};
+		014CF30724795753004D426C /* PopUp */ = {
+			isa = PBXGroup;
+			children = (
+				014CF3242479836C004D426C /* PopUpVerifyPhoneNumber */,
+				014CF31F247980C8004D426C /* PopUpVerifyEmail */,
+				014CF3162479687B004D426C /* PopUpCountry */,
+				014CF31124796314004D426C /* PopUpGender */,
+				014CF30824795760004D426C /* PopUpBirthday */,
+			);
+			path = PopUp;
+			sourceTree = "<group>";
+		};
+		014CF30824795760004D426C /* PopUpBirthday */ = {
+			isa = PBXGroup;
+			children = (
+				014CF30D24795FA6004D426C /* PopUpBirthdayVC.swift */,
+				014CF30E24795FA6004D426C /* PopUpBirthdayVC.xib */,
+			);
+			path = PopUpBirthday;
+			sourceTree = "<group>";
+		};
+		014CF31124796314004D426C /* PopUpGender */ = {
+			isa = PBXGroup;
+			children = (
+				014CF31B247974F1004D426C /* PopUpGenderVC.swift */,
+				014CF31C247974F1004D426C /* PopUpGenderVC.xib */,
+			);
+			path = PopUpGender;
+			sourceTree = "<group>";
+		};
+		014CF3162479687B004D426C /* PopUpCountry */ = {
+			isa = PBXGroup;
+			children = (
+				014CF3172479689A004D426C /* PopUpCountryVC.swift */,
+				014CF3182479689A004D426C /* PopUpCountryVC.xib */,
+			);
+			path = PopUpCountry;
+			sourceTree = "<group>";
+		};
+		014CF31F247980C8004D426C /* PopUpVerifyEmail */ = {
+			isa = PBXGroup;
+			children = (
+				014CF32024798106004D426C /* PopUpVerifyEmailVC.swift */,
+				014CF32124798106004D426C /* PopUpVerifyEmailVC.xib */,
+			);
+			path = PopUpVerifyEmail;
+			sourceTree = "<group>";
+		};
+		014CF3242479836C004D426C /* PopUpVerifyPhoneNumber */ = {
+			isa = PBXGroup;
+			children = (
+				014CF32624798603004D426C /* PopUpVerifyPhoneNumber.swift */,
+				014CF32724798603004D426C /* PopUpVerifyPhoneNumber.xib */,
+			);
+			path = PopUpVerifyPhoneNumber;
+			sourceTree = "<group>";
+		};
 		678DFD9857B48191E8C00383 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +212,7 @@
 		A8FB443724780738000C8722 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				014CF30024793275004D426C /* TabUser */,
 				A8FB443924780758000C8722 /* RegisterLoginFlow */,
 			);
 			path = Controller;
@@ -234,13 +329,19 @@
 			files = (
 				A8FB44512478282B000C8722 /* Tabbar.storyboard in Resources */,
 				A8FB444224780997000C8722 /* GoogleService-Info.plist in Resources */,
+				014CF31A2479689A004D426C /* PopUpCountryVC.xib in Resources */,
 				A8FB444B24781264000C8722 /* Quicksand-Medium.ttf in Resources */,
+				014CF32324798106004D426C /* PopUpVerifyEmailVC.xib in Resources */,
 				A8FB442F24780621000C8722 /* LaunchScreen.storyboard in Resources */,
 				A8FB444A24781264000C8722 /* Quicksand-Regular.ttf in Resources */,
+				014CF32924798603004D426C /* PopUpVerifyPhoneNumber.xib in Resources */,
 				A8FB442C24780621000C8722 /* Assets.xcassets in Resources */,
+				014CF306247932F1004D426C /* UserDetailVC.xib in Resources */,
+				014CF31E247974F2004D426C /* PopUpGenderVC.xib in Resources */,
 				A8FB444924781264000C8722 /* Quicksand-Light.ttf in Resources */,
 				A8FB444F24781CCB000C8722 /* SignUpVC.xib in Resources */,
 				A8FB442A24780620000C8722 /* Main.storyboard in Resources */,
+				014CF31024795FA6004D426C /* PopUpBirthdayVC.xib in Resources */,
 				A8FB444824781264000C8722 /* Quicksand-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,9 +399,16 @@
 				A8FB443E247807E7000C8722 /* Extensions.swift in Sources */,
 				A8FB442724780620000C8722 /* ViewController.swift in Sources */,
 				A8FB443C247807CC000C8722 /* BaseViewController.swift in Sources */,
+				014CF31D247974F2004D426C /* PopUpGenderVC.swift in Sources */,
+				014CF305247932F1004D426C /* UserDetailVC.swift in Sources */,
 				A8FB442324780620000C8722 /* AppDelegate.swift in Sources */,
 				A8FB442524780620000C8722 /* SceneDelegate.swift in Sources */,
+				014CF30F24795FA6004D426C /* PopUpBirthdayVC.swift in Sources */,
+				014CF3192479689A004D426C /* PopUpCountryVC.swift in Sources */,
+				014CF32224798106004D426C /* PopUpVerifyEmailVC.swift in Sources */,
+				014CF32824798603004D426C /* PopUpVerifyPhoneNumber.swift in Sources */,
 				A8FB4440247807F5000C8722 /* Constant.swift in Sources */,
+				014CF302247932AC004D426C /* UserVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

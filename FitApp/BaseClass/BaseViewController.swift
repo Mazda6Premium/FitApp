@@ -21,6 +21,12 @@ class BaseViewController: UIViewController {
         return UIScreen.main.bounds.height
     }
     
+    func changeBackgroundColor(views: [UIView], color : UIColor) {
+        views.forEach { (view) in
+            view.backgroundColor = color
+        }
+    }
+    
     func roundCorner(views: [UIView], radius: CGFloat) {
         views.forEach { (view) in
             view.layer.masksToBounds = true

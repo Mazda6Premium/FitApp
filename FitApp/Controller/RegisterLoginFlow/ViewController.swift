@@ -40,11 +40,21 @@ class ViewController: BaseViewController {
         roundCorner(views: [btnSignIn, viewBtnApple, viewBtnGoogle, viewBtnFacebook], radius: ROUND_BORDER_BUTTON)
         addBorder(views: [viewBtnApple, viewBtnGoogle, viewBtnFacebook], width: BORDER_WIDTH, color: BORDER_COLOR.cgColor)
     }
+    
+    @IBAction func tapOnSignIn(_ sender: Any) {
+        let storyBoard = UIStoryboard(name: "Tabbar", bundle: nil)
+        let vc = storyBoard.instantiateViewController(withIdentifier: "tabbarVC")
+        vc.modalTransitionStyle = .crossDissolve
+        vc.modalPresentationStyle = .overFullScreen
+        self.present(vc, animated: true, completion: nil)
+    }
+    
 
     @IBAction func tapOnSignUp(_ sender: Any) {
         let vc = SignUpVC(nibName: "SignUpVC", bundle: nil)
         self.present(vc, animated: true, completion: nil)
     }
+    
 }
 
 extension ViewController : UITextFieldDelegate {

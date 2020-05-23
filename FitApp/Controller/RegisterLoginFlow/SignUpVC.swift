@@ -58,7 +58,6 @@ class SignUpVC: BaseViewController {
         
         roundCorner(views: [btnSignIn, viewBtnFacebook, viewBtnGoogle, viewBtnApple], radius: ROUND_BORDER_BUTTON)
         addBorder(views: [viewBtnFacebook, viewBtnGoogle, viewBtnApple], width: BORDER_WIDTH, color: BORDER_COLOR.cgColor)
-        
     }
     
 }
